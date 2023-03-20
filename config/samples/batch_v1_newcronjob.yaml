@@ -1,0 +1,12 @@
+apiVersion: batch.tutorial.kubebuilder.io/v1
+kind: NewCronJob
+metadata:
+  labels:
+    app.kubernetes.io/name: newcronjob
+    app.kubernetes.io/instance: newcronjob-sample
+    app.kubernetes.io/part-of: newcronjob-controller
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: newcronjob-controller
+  name: newcronjob-sample
+spec:
+  # TODO(user): Add fields here
